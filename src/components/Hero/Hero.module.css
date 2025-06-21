@@ -34,7 +34,7 @@
 
 .description {
   font-size: 30px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   margin-bottom: 30px;
   color: var(--color-primary);
 }
@@ -71,6 +71,30 @@
   background-color: var(--color-white);
 }
 
+/* === Profile Image Styling === */
+.heroImg {
+  width: 35%;
+  max-width: 400px;
+  border-radius: 50%;
+  z-index: 1;
+  animation: floating 3s ease-in-out infinite;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  border: 3px solid var(--color-primary);
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+/* === Media Queries for Responsiveness === */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -80,6 +104,12 @@
 
   .content {
     align-items: center;
+  }
+
+  .heroImg {
+    width: 50%;
+    max-width: 250px;
+    margin-bottom: 2rem;
   }
 
   .title {
