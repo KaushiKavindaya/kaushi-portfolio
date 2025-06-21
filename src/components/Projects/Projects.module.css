@@ -1,0 +1,75 @@
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+}
+
+.projectItem {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.projectItem:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.projectContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectContent h3 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.projectContent p {
+  margin-bottom: 1rem;
+  color: var(--color-light);
+  flex-grow: 1;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.technologies li {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  padding: 0.2rem 0.7rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.projectCta {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto; /* Pushes buttons to the bottom */
+}
+
+.btn {
+  display: inline-block;
+  width: max-content;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}

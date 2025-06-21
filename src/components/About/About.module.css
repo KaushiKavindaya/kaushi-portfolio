@@ -1,0 +1,23 @@
+.aboutContainer {
+  text-align: center;
+}
+
+.content {
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.content:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.content p {
+  color: var(--color-light);
+  margin: 0 auto;
+  max-width: 800px;
+  line-height: 1.8;
+}
