@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kaushi-portfolio/static/css/main.4e6a9518.css",
+    "main.js": "/kaushi-portfolio/static/js/main.f088f373.js",
+    "static/js/453.46330c9b.chunk.js": "/kaushi-portfolio/static/js/453.46330c9b.chunk.js",
+    "index.html": "/kaushi-portfolio/index.html",
+    "main.4e6a9518.css.map": "/kaushi-portfolio/static/css/main.4e6a9518.css.map",
+    "main.f088f373.js.map": "/kaushi-portfolio/static/js/main.f088f373.js.map",
+    "453.46330c9b.chunk.js.map": "/kaushi-portfolio/static/js/453.46330c9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6a9518.css",
+    "static/js/main.f088f373.js"
+  ]
+}
